@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    <title> Welcome To L2E Employee Delete Form </title>
+    <link rel="stylesheet" href="/css/Delete.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Delete Data Record</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Emp ID</span>
+            <input type="text" name="empId" id="empId" placeholder="Enter Employee Id" autocomplete="off" required>
+          </div>
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Delete" onclick="deleteEmployee();">
+        </div>
+        <div class="button1">
+            <input type="button" value="Back" onclick="history.go(-1)">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="/JS/Delete.js"></script>
+
+</body>
+</html>
